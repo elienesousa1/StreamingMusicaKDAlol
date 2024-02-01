@@ -1,0 +1,65 @@
+
+.bg{
+    background-image: url("https://i.pinimg.com/originals/56/55/7d/56557df8e410876e20c0c4693862b767.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
+    
+
+
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    margin-top: 20px;
+    
+}
+  
+  button {
+    background-color: inherit;
+    color: rgb(0, 0, 0);
+    border-color: rgb(83, 4, 66);
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(56, 10, 56);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #informacoes-faixa {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 0 1rem 0;
+    font-size: 1.3rem;
+  }
+  
+  
+  #anterior, #proximo {
+    font-size: 3rem;
+  }
+  
+  #play-pause {
+    font-size: 4rem;
+  }
+  
+  #container-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
